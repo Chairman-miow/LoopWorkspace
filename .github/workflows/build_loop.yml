@@ -296,6 +296,14 @@ jobs:
           negative_insulin
           # the final customization listed above CANNOT have a continuation character
           # more customizations can be pasted after this line
+
+          # Module: File: code customization description
+          curl https://github.com/Chairman-miow/Loop/commit/4132d4fce9882516ca8c3b2b811612a6531fc675.patch | git apply -v --directory=Loop
+
+          # Module: File: code customization description
+          curl https://github.com/Chairman-miow/Loop/commit/b415bae7748bda310fdfe46c94205cc495bfc5b0.patch | git apply -v --directory=Loop
+
+          
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
         run: |
