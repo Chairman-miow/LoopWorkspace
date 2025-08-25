@@ -298,10 +298,10 @@ jobs:
           # more customizations can be pasted after this line
 
           # Module: File: code customization description
-          curl https://github.com/Chairman-miow/Loop/commit/4132d4fce9882516ca8c3b2b811612a6531fc675.patch | git apply -v --directory=Loop
+          curl https://github.com/Chairman-miow/Loop/commit/8c012ac05cbe73f046f5fbebea40ba91471cff5c.patch | git apply -v --directory=Loop
 
           # Module: File: code customization description
-          curl https://github.com/Chairman-miow/Loop/commit/b415bae7748bda310fdfe46c94205cc495bfc5b0.patch | git apply -v --directory=Loop
+          curl https://github.com/Chairman-miow/Loop/commit/598c98734efbfc0500e7b043712943aa64647754.patch | git apply -v --directory=Loop
 
           
       # Patch Fastlane Match to not print tables
